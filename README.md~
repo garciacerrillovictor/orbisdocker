@@ -1,1 +1,0 @@
-docker run --rm -it -v $PWD:/app dockervic/orbis-training-docker:1.0.6 npm install

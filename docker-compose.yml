@@ -1,0 +1,14 @@
+version: '3'
+services:
+  node_app:
+    image: dockervic/orbis-training-docker:1.0.6
+    command: "npm start"
+    volumes:
+      - $PWD:/app
+    ports:
+      - "3030:3030"
+      - 35729:35729
+  test:
+    image: node:10.10.0-slim
+    command: "curl http://node_app:3030/"
+      

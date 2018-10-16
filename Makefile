@@ -1,0 +1,37 @@
+include makefiles/task.mk makefiles/gh-pages.mk
+#include deply-aws.mk
+NAME_IMAGE ?= dockervic/orbis-training-docker
+DOCKER_TAG ?= 1.06
+DOCKER_IMAGE ?= dockervic/orbis-training-docker:1.0.6
+NAME ?= "angelo victor"
+
+.PHONY: install\
+	start\
+	release\
+	greet
+
+install:
+	docker run --rm -it -v ${PWD}:/app ${NAME_IMAGE}:1.0.6 npm install
+
+start:
+	docker run --rm -it -v ${PWD}:/app -p 3030:3030 -p 35729:35729 dockervic/orbis-training-docker:${DOCKER_TAG} npm start
+
+release:
+	docker run --rm -it -v ${PWD}:/app ${DOCKER_IMAGE} npm run release
+
+greet:
+	docker run --rm -it -v ${PWD}:/app dockervic/orbis-training-docker:1.0.6 bash ./resources/example.sh saludo ${NAME}
+
+docexam:
+	@echo 'Hola recursos!'
+
+build-jenkins:
+	docker build -t ${NAME_IMAGE}/jenkins-deploy:0.1.0 docker/jenkins
+
+jenkins:
+	docker run --rm \
+    -u root \
+    -p 8080:8080 \
+    -v ${PWD}/jenkins-data:/var/jenkins_home \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    ${NAME_IMAGE}/jenkins-deploy:0.1.0
