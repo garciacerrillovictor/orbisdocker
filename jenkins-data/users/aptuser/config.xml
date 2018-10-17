@@ -32,7 +32,7 @@
               <id>github</id>
               <description>GitHub Access Token</description>
               <username>aptuser</username>
-              <password>{AQAAABAAAAAwNAEhhpf+COpXmfy3W43b1yhcmFTMPsaeBHuDAh+ebwivfbIY/AcabAbsso+RePzJHrwLEUwA10qPxPhxF9ffFA==}</password>
+              <password>{AQAAABAAAAAwE/dOYtLV2RlCUBqCCNWuK+K9YLqxaSm/qaDhtWoxsR4NbYkKfrNXjSVsLkEpbVoqkNKVivBADvoTul2nRJkY8g==}</password>
             </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
           </list>
         </entry>
@@ -70,5 +70,11 @@
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21">
       <emailAddress>victor.garcia@orbis.com.pe</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1539797628444</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>

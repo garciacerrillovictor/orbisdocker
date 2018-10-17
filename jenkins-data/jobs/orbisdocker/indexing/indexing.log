@@ -1,0 +1,30 @@
+Started by user [8mha:////4LYeuSzs0H5MTB73RGCHISNxLrSO4loLvlEXHe8e8y5wAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9xIISEA0AMXnyuMIAAAA=[0mbanana time
+[Tue Oct 16 22:30:53 GMT 2018] Starting branch indexing...
+[8mha:////4G/0OHB4Kq68Dq3Ln3uW9Pn/bhhyHMvGhIg+ij0E52bwAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRaPcON+wD6kYhbjgAAAA==[0mConnecting to https://api.github.com using aptuser/****** (GitHub Access Token)
+Examining [8mha:////4NsxaDoc00oTtne9DlxXnn/Crcbg+VJvbHV1P164Ki70AAAAsB+LCAAAAAAAAP9djLENwjAQRY8gGIASUTBBXCBRgFLRgBTRMIFjLNvE+KzzJQprsAY0DME47EBQOl7zX/Pf8wOTRLCwzTlhyBWGhF7n+1vU5F2oj8h6XTxexT2+M8gOMPU6GLYljBvyDLPyIlspvAxGnJhcMNuOYP6X2w37i8HAKAPoYi9LhpVljmkjhHFsm6p/XYWRpJxUmsh5j61TjCSQKpfOqGpNX5jJ8fW4AAAA[0mgarciacerrillovictor/orbisdocker
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4LQlo+0zyXDXlpHTLkQOS5E107R6Zkz27if+W4FkPpM3AAAAth+LCAAAAAAAAP9djLENwjAQRY8gMgAlYoa4owBFFDQgRTRM4Dgnx8SxrfMlCmuwBjQMwTjsQFA6XvNf89/zA4tIsK67KnqXKe+it5gdbwHJGtecPeMmf7zye3gnkJwgteg01wXMO7IMy+IqeymsdFpcmIzTu4Fg9Zc7TPuLwcQsARjCKCnDvmYOcSuENlx35fhqhZakjFRIZKz1vVHsSXgqTay8apAEE6JoZWSkL1MXt9bEAAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+
+    Checking branch [8mha:////4MAw2EUGQXFRb+aO67sEX4Q5UnXA3hiUE9RrGXpWhBa4AAAAuB+LCAAAAAAAAP9djLENwjAQRY8gEDUlYgXijgJEgWhAimiYwHFOtsHY1vkShTVYAxqGYBx2ICgdr/mv+e/5gVEimJu6SsHnKvgUHOb7W0Ry1l+OgXG5ebw29/jOIDvA2KHXbAoY1uQYpsVZNlI46bU4MVmv1y3B7C+36/cXg55BBtDGTiYMW8Mc00oIbdnUZfe6Ci1JWamQyDoXGqs4kAhU2lQFdUESTIhCm0WUGtMXub5GE8YAAAA=[0mgh-pages
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  2 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining garciacerrillovictor/orbisdocker
+
+[Tue Oct 16 22:30:55 GMT 2018] Finished branch indexing. Indexing took 1.2 sec
+Finished: SUCCESS

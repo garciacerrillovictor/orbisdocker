@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-10-16 22:31:02.940 UTC</timestamp>
+  <md5sum>fb85c3025ef1701e954f9bdb1c42aabd</md5sum>
+  <fileName>Credential id=github name=aptuser/****** (GitHub Access Token)</fileName>
+  <usages>
+    <entry>
+      <string>orbisdocker/master</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

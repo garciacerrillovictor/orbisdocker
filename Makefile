@@ -1,4 +1,5 @@
-include makefiles/task.mk makefiles/gh-pages.mk
+include makefiles/task.mk
+include makefiles/gh-pages.mk
 #include deply-aws.mk
 NAME_IMAGE ?= dockervic/orbis-training-docker
 DOCKER_TAG ?= 1.06
@@ -35,3 +36,9 @@ jenkins:
     -v ${PWD}/jenkins-data:/var/jenkins_home \
     -v /var/run/docker.sock:/var/run/docker.sock \
     ${NAME_IMAGE}/jenkins-deploy:0.1.0
+
+project-workspace:
+	docker run --rm -it -d -v PWD:/app -p 3030:3030 -p 35729:35729 ${DOCKER_IMAGE}
+
+curl:
+	docker run -it --net=docexam_default node:10.10.0-slim curl http://node_app:3030/
