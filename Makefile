@@ -12,7 +12,7 @@ NAME ?= "angelo victor"
 	greet
 
 install:
-	docker run --rm -it -v ${PWD}:/app ${NAME_IMAGE}:1.0.6 npm install
+	docker run --rm -v ${PWD}:/app ${NAME_IMAGE}:1.0.6 npm install
 
 start:
 	docker run --rm -it -v ${PWD}:/app -p 3030:3030 -p 35729:35729 dockervic/orbis-training-docker:${DOCKER_TAG} npm start
