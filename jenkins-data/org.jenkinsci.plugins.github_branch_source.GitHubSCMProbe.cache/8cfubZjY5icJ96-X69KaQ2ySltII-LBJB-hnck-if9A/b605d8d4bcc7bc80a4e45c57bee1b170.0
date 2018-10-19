@@ -1,25 +1,24 @@
-https://api.github.com/repos/garciacerrillovictor/orbisdocker
+https://api.github.com/repos/garciacerrillovictor/orbisdocker/contents/Jenkinsfile?ref=347eb141eaa5dac60c1dfdcc989555b5643ae531
 GET
 1
 Authorization: Basic YXB0dXNlcjo2M2JmZjcxZGU3YjIwYzI5YTUyMjNiOWVmYTdmZDFiNWEyNGY3NjVj
 HTTP/1.1 200 OK
 27
-Transfer-Encoding: chunked
-X-OAuth-Scopes: admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete_repo, gist, notifications, repo, user, write:discussion
-X-Accepted-OAuth-Scopes: repo
-X-GitHub-Media-Type: github.v3; format=json
-Content-Encoding: gzip
 Server: GitHub.com
-Date: Fri, 19 Oct 2018 23:38:31 GMT
-Content-Type: application/octet-stream
-Status: 304 Not Modified
+Date: Fri, 19 Oct 2018 23:36:52 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Status: 200 OK
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4935
+X-RateLimit-Remaining: 4936
 X-RateLimit-Reset: 1539992683
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: "dd95bbba6edadb70a844de1b5e213f05"
-Last-Modified: Fri, 19 Oct 2018 23:35:32 GMT
+ETag: W/"36affb1c97f59c43d5cbd4412fb8d7d5a7a7cb32"
+Last-Modified: Fri, 19 Oct 2018 23:35:07 GMT
+X-OAuth-Scopes: admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete_repo, gist, notifications, repo, user, write:discussion
+X-Accepted-OAuth-Scopes: 
+X-GitHub-Media-Type: github.v3; format=json
 Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
@@ -28,9 +27,10 @@ X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
-X-GitHub-Request-Id: 9E60:28CE:481B0B8:9A9F8DB:5BCA6AEA
-OkHttp-Sent-Millis: 1539992311146
-OkHttp-Received-Millis: 1539992311306
+Content-Encoding: gzip
+X-GitHub-Request-Id: C4B6:0494:933647:18166FA:5BCA6A94
+OkHttp-Sent-Millis: 1539992212432
+OkHttp-Received-Millis: 1539992212608
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2

@@ -15,13 +15,13 @@ install:
 	docker run --rm -v ${PWD}:/app ${NAME_IMAGE}:1.0.6 npm install
 
 start:
-	docker run --rm -it -v ${PWD}:/app -p 3030:3030 -p 35729:35729 dockervic/orbis-training-docker:${DOCKER_TAG} npm start
+	docker run --rm -v ${PWD}:/app -p 3030:3030 -p 35729:35729 dockervic/orbis-training-docker:${DOCKER_TAG} npm start
 
 release:
-	docker run --rm -it -v ${PWD}:/app ${DOCKER_IMAGE} npm run release
+	docker run --rm -v ${PWD}:/app ${DOCKER_IMAGE} npm run release
 
 greet:
-	docker run --rm -it -v ${PWD}:/app dockervic/orbis-training-docker:1.0.6 bash ./resources/example.sh saludo ${NAME}
+	docker run --rm -v ${PWD}:/app dockervic/orbis-training-docker:1.0.6 bash ./resources/example.sh saludo ${NAME}
 
 docexam:
 	@echo 'Hola recursos!'
@@ -41,4 +41,4 @@ project-workspace:
 	docker run --rm -it -d -v ${PWD}:/app -p 3030:3030 -p 35729:35729 ${DOCKER_IMAGE}
 
 curl:
-	docker run -it --net=docexam_default node:10.10.0-slim curl http://node_app:3030/
+	docker run --net=docexam_default node:10.10.0-slim curl http://node_app:3030/

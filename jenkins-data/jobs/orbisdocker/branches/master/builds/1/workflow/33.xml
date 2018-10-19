@@ -1,16 +1,19 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <Tag plugin="workflow-support@2.21">
-  <node class="cps.n.StepEndNode" plugin="workflow-cps@2.58">
+  <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@2.30">
     <parentIds>
-      <string>17</string>
+      <string>32</string>
     </parentIds>
-    <id>18</id>
-    <startId>12</startId>
+    <id>33</id>
+    <startId>2</startId>
+    <result>
+      <name>FAILURE</name>
+      <ordinal>2</ordinal>
+      <color>RED</color>
+      <completeBuild>true</completeBuild>
+    </result>
   </node>
   <actions>
-    <wf.a.TimingAction plugin="workflow-api@2.30">
-      <startTime>1539991897184</startTime>
-    </wf.a.TimingAction>
     <wf.a.ErrorAction plugin="workflow-api@2.30">
       <error class="hudson.AbortException">
         <detailMessage>script returned exit code 2</detailMessage>
@@ -32,5 +35,8 @@
         </suppressedExceptions>
       </error>
     </wf.a.ErrorAction>
+    <wf.a.TimingAction plugin="workflow-api@2.30">
+      <startTime>1539992311060</startTime>
+    </wf.a.TimingAction>
   </actions>
 </Tag>
