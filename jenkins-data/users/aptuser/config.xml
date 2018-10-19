@@ -32,7 +32,7 @@
               <id>github</id>
               <description>GitHub Access Token</description>
               <username>aptuser</username>
-              <password>{AQAAABAAAAAwE/dOYtLV2RlCUBqCCNWuK+K9YLqxaSm/qaDhtWoxsR4NbYkKfrNXjSVsLkEpbVoqkNKVivBADvoTul2nRJkY8g==}</password>
+              <password>{AQAAABAAAAAwE59qym7N7nf9xtSXIw469kKOYakAf3fmdSdhFRsCA4kruj0MBAKcV+Wuavfvv14aDt22Dn/vu6wPNLcwvbC8QQ==}</password>
             </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
           </list>
         </entry>

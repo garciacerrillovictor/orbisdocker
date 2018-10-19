@@ -13,7 +13,15 @@
       <displayName>Deploy</displayName>
     </wf.a.LabelAction>
     <wf.a.TimingAction plugin="workflow-api@2.30">
-      <startTime>1539729149256</startTime>
+      <startTime>1539991584474</startTime>
     </wf.a.TimingAction>
+    <wf.a.TagsAction plugin="workflow-api@2.30">
+      <tags>
+        <entry>
+          <string>STAGE_STATUS</string>
+          <string>SKIPPED_FOR_FAILURE</string>
+        </entry>
+      </tags>
+    </wf.a.TagsAction>
   </actions>
 </Tag>

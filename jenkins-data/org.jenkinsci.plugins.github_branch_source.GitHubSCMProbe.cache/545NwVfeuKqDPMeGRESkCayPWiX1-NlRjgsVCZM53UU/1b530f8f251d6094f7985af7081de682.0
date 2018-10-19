@@ -1,24 +1,21 @@
 https://api.github.com/
 GET
-1
-Authorization: Basic YXB0dXNlcjowZjkzYjU3ODJlZGI3N2RkYjVhNmU4ZGIyM2RjOWFjZTlmMjdjYWE1
+0
 HTTP/1.1 200 OK
-26
+24
 Transfer-Encoding: chunked
-X-OAuth-Scopes: read:user, repo, user:email, write:repo_hook
-X-Accepted-OAuth-Scopes: 
 X-GitHub-Media-Type: github.v3; format=json
 Content-Encoding: gzip
 Server: GitHub.com
-Date: Wed, 17 Oct 2018 17:53:56 GMT
+Date: Wed, 17 Oct 2018 18:00:38 GMT
 Content-Type: application/octet-stream
 Status: 304 Not Modified
-X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4994
-X-RateLimit-Reset: 1539801230
-Cache-Control: private, max-age=60, s-maxage=60
-Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: "bc3ad8dcb7cb2094ffce8c4b4b0171fd"
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 55
+X-RateLimit-Reset: 1539801382
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept
+ETag: "71c20e818259a283a4a0ff002435bd03"
 Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
@@ -27,9 +24,9 @@ X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
-X-GitHub-Request-Id: 8F7E:28CD:4689C65:854E5FE:5BC77733
-OkHttp-Sent-Millis: 1539798836302
-OkHttp-Received-Millis: 1539798836429
+X-GitHub-Request-Id: 9BA6:4878:20A6813:41B1F2A:5BC778C6
+OkHttp-Sent-Millis: 1539799238371
+OkHttp-Received-Millis: 1539799238597
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2
