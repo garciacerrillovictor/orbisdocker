@@ -1,25 +1,24 @@
-https://api.github.com/repos/garciacerrillovictor/orbisdocker/contents/?ref=refs%2Fheads%2Fmaster
+https://api.github.com/repos/garciacerrillovictor/orbisdocker/contents/Jenkinsfile?ref=7c065cf535c80f05af5d0dedcfdb7b1e7264b743
 GET
 1
 Authorization: Basic YXB0dXNlcjo2M2JmZjcxZGU3YjIwYzI5YTUyMjNiOWVmYTdmZDFiNWEyNGY3NjVj
 HTTP/1.1 200 OK
 27
-Transfer-Encoding: chunked
-X-OAuth-Scopes: admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete_repo, gist, notifications, repo, user, write:discussion
-X-Accepted-OAuth-Scopes: 
-X-GitHub-Media-Type: github.v3; format=json
-Content-Encoding: gzip
 Server: GitHub.com
-Date: Fri, 19 Oct 2018 23:42:21 GMT
-Content-Type: application/octet-stream
-Status: 304 Not Modified
+Date: Fri, 19 Oct 2018 23:42:23 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Status: 200 OK
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4924
+X-RateLimit-Remaining: 4922
 X-RateLimit-Reset: 1539992683
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: "0bc607cb5d35e305cafbb5c4e33399e45d194054"
-Last-Modified: Fri, 19 Oct 2018 23:41:04 GMT
+ETag: W/"36affb1c97f59c43d5cbd4412fb8d7d5a7a7cb32"
+Last-Modified: Fri, 19 Oct 2018 23:39:58 GMT
+X-OAuth-Scopes: admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete_repo, gist, notifications, repo, user, write:discussion
+X-Accepted-OAuth-Scopes: 
+X-GitHub-Media-Type: github.v3; format=json
 Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
@@ -28,9 +27,10 @@ X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
-X-GitHub-Request-Id: 9ED4:0494:933F7E:181836C:5BCA6BDD
-OkHttp-Sent-Millis: 1539992541555
-OkHttp-Received-Millis: 1539992541705
+Content-Encoding: gzip
+X-GitHub-Request-Id: 9ED4:0494:933F8A:181838B:5BCA6BDE
+OkHttp-Sent-Millis: 1539992542925
+OkHttp-Received-Millis: 1539992543573
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2

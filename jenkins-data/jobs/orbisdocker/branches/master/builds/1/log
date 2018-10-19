@@ -1,6 +1,6 @@
 Branch indexing
-[8mha:////4FnritMlBXOeB5xf4ruTlYRhpVa8GhDfaYtDq1zyD+o1AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRa3wb/NwDjY9whjgAAAA==[0mConnecting to https://api.github.com using aptuser/****** (GitHub Access Token)
-Obtained Jenkinsfile from 347eb141eaa5dac60c1dfdcc989555b5643ae531
+[8mha:////4Jgbt3dY/lQC13ZmyLCzELPxKwCgY3dC8Dgmo2I4v/dYAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRa39ao4wBcvh68jgAAAA==[0mConnecting to https://api.github.com using aptuser/****** (GitHub Access Token)
+Obtained Jenkinsfile from 7c065cf535c80f05af5d0dedcfdb7b1e7264b743
 Running in Durability level: MAX_SURVIVABILITY
 [8mha:////4LLPZZkPirKwhw+Z1tbMCw4PrrPYEzD5yU9XY51QGTfjAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
 Running on [8mha:////4HF2LUx6xGpSc3Q8Tk0ulOIl3ODTmxbuDEp9cxVf9o1JAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/orbisdocker_master-RSJDGSSUTRFMBJF7PRA2UWAQ7FN5HQ4JRLRBSHIVGA4W2PTT3WWA
@@ -27,12 +27,12 @@ Fetching without tags
 Fetching upstream changes from https://github.com/garciacerrillovictor/orbisdocker.git
 using GIT_ASKPASS to set credentials GitHub Access Token
  > git fetch --no-tags --progress https://github.com/garciacerrillovictor/orbisdocker.git +refs/heads/master:refs/remotes/origin/master
-Checking out Revision 347eb141eaa5dac60c1dfdcc989555b5643ae531 (master)
+Checking out Revision 7c065cf535c80f05af5d0dedcfdb7b1e7264b743 (master)
  > git config core.sparsecheckout # timeout=10
- > git checkout -f 347eb141eaa5dac60c1dfdcc989555b5643ae531
+ > git checkout -f 7c065cf535c80f05af5d0dedcfdb7b1e7264b743
  > git branch -a -v --no-abbrev # timeout=10
- > git checkout -b master 347eb141eaa5dac60c1dfdcc989555b5643ae531
-Commit message: "working2"
+ > git checkout -b master 7c065cf535c80f05af5d0dedcfdb7b1e7264b743
+Commit message: "working3"
 First time build. Skipping changelog.
 Cleaning workspace
  > git rev-parse --verify HEAD # timeout=10
@@ -51,20 +51,19 @@ Building..
 [orbisdocker_master-RSJDGSSUTRFMBJF7PRA2UWAQ7FN5HQ4JRLRBSHIVGA4W2PTT3WWA] Running shell script
 + make project-workspace
 docker run --rm -it -d -v /var/jenkins_home/workspace/orbisdocker_master-RSJDGSSUTRFMBJF7PRA2UWAQ7FN5HQ4JRLRBSHIVGA4W2PTT3WWA:/app -p 3030:3030 -p 35729:35729 dockervic/orbis-training-docker:1.0.6
-029f282faf546a12b3567f84786bf7c131c66205ec1e3deefbdd2b8a2a9f863b
+ef2f939f6752369e6a5305ff2d71be85f597cbf9b864a8d79d3bb6af4e36588b
 [8mha:////4CndBTCV9FvXqdneFy/8Zq9zGEL26mZ5Mrtr/KWlGNgEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGI1pjGvgAAAA==[0m[Pipeline] sh
 [orbisdocker_master-RSJDGSSUTRFMBJF7PRA2UWAQ7FN5HQ4JRLRBSHIVGA4W2PTT3WWA] Running shell script
 + make install
 docker run --rm -v /var/jenkins_home/workspace/orbisdocker_master-RSJDGSSUTRFMBJF7PRA2UWAQ7FN5HQ4JRLRBSHIVGA4W2PTT3WWA:/app dockervic/orbis-training-docker:1.0.6 npm install
 npm WARN saveError ENOENT: no such file or directory, open '/app/package.json'
-npm notice created a lockfile as package-lock.json. You should commit this file.
 npm WARN enoent ENOENT: no such file or directory, open '/app/package.json'
 npm WARN app No description
 npm WARN app No repository field.
 npm WARN app No README data
 npm WARN app No license field.
 
-up to date in 1.613s
+up to date in 1.546s
 found 0 vulnerabilities
 
 [8mha:////4JwJMMnUrDL0lGt8TvAzMOm0VrPohW6UKES479ogQviCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG7xuaSvgAAAA==[0m[Pipeline] }
@@ -76,9 +75,11 @@ Testing..
 [8mha:////4IqJ/QWqhXSP4DtSEZdraPtEXWv3RkNvAkLt+UOQfqlFAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bq7DVH74AAAA=[0m[Pipeline] sh
 [orbisdocker_master-RSJDGSSUTRFMBJF7PRA2UWAQ7FN5HQ4JRLRBSHIVGA4W2PTT3WWA] Running shell script
 + make start
-docker run --rm -it -v /var/jenkins_home/workspace/orbisdocker_master-RSJDGSSUTRFMBJF7PRA2UWAQ7FN5HQ4JRLRBSHIVGA4W2PTT3WWA:/app -p 3030:3030 -p 35729:35729 dockervic/orbis-training-docker:1.06 npm start
-the input device is not a TTY
-make: *** [Makefile:18: start] Error 1
+docker run --rm -v /var/jenkins_home/workspace/orbisdocker_master-RSJDGSSUTRFMBJF7PRA2UWAQ7FN5HQ4JRLRBSHIVGA4W2PTT3WWA:/app -p 3030:3030 -p 35729:35729 dockervic/orbis-training-docker:1.06 npm start
+Unable to find image 'dockervic/orbis-training-docker:1.06' locally
+docker: Error response from daemon: manifest for dockervic/orbis-training-docker:1.06 not found.
+See 'docker run --help'.
+make: *** [Makefile:18: start] Error 125
 [8mha:////4JUwy1Z8NzdUM/RrUBG95LrG3Pk3QC6ve6a2R4LQy84LAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fSZy7ir4AAAA=[0m[Pipeline] }
 [8mha:////4AlFqhit9p0r02xXDWxLREjcAVbIbjioDlydvQ6tKmOWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+WR0/FvgAAAA==[0m[Pipeline] // stage
 [8mha:////4Dja8c21lvKIPcyP/GwgCbFITQ+MXZwWt0pZTybyC4rMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohURWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQFKJke3wgAAAA==[0m[Pipeline] stage

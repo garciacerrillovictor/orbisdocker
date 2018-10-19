@@ -2,7 +2,7 @@ include makefiles/task.mk
 include makefiles/gh-pages.mk
 #include deply-aws.mk
 NAME_IMAGE ?= dockervic/orbis-training-docker
-DOCKER_TAG ?= 1.06
+DOCKER_TAG ?= 1.0.6
 DOCKER_IMAGE ?= dockervic/orbis-training-docker:1.0.6
 NAME ?= "angelo victor"
 
@@ -15,7 +15,7 @@ install:
 	docker run --rm -v ${PWD}:/app ${NAME_IMAGE}:1.0.6 npm install
 
 start:
-	docker run --rm -v ${PWD}:/app -p 3030:3030 -p 35729:35729 dockervic/orbis-training-docker:${DOCKER_TAG} npm start
+	docker run --rm -v ${PWD}:/app -p 3030:3030 -p 35729:35729 ${DOCKER_IMAGE} npm start
 
 release:
 	docker run --rm -v ${PWD}:/app ${DOCKER_IMAGE} npm run release

@@ -13,7 +13,7 @@
       <displayName>Declarative: Checkout SCM</displayName>
     </wf.a.LabelAction>
     <wf.a.TimingAction plugin="workflow-api@2.30">
-      <startTime>1539992213912</startTime>
+      <startTime>1539992544734</startTime>
     </wf.a.TimingAction>
     <wf.a.TagsAction plugin="workflow-api@2.30">
       <tags>
